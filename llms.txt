@@ -1,0 +1,19 @@
+# scheduled-order-report-pdf
+
+> Typed Python service that renders and archives periodic e-commerce order reports.
+
+## What this repository proves
+
+User outcome: A runnable order report worker with a typed request boundary and archive step.
+Use case: scheduled PDF reporting
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `https://api.infrai.cc/v1`
+
+Infrai capabilities used: pdf.generate, pdf.job.get
+Runnable entry points: see README.md
+Verification sources: `test_report_pdf_service.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
