@@ -39,3 +39,7 @@ Above is the happy path. The production checklist: The details below apply to Sc
 
 **Scheduled Order Report PDF: PDF**
 - **Scheduled Order Report PDF:** Generation draws on credit; large/complex documents cost more — watch `GET /v1/account/usage`.
+
+## Further reading
+
+- [Scheduled PDF Report Generation API: A Signed Archive Approach for Property Finance](docs/scheduled-pdf-report-generation-api-a-signed-arch-1l3c5s.md)
